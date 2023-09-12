@@ -1,0 +1,128 @@
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500&family=Nunito:wght@200&family=Roboto+Condensed&display=swap');
+ body
+ {font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;}
+
+
+.header_title {
+  display: flex;
+  justify-content: flex-start;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 120%;
+  text-transform: capitalize;
+  text-align: start;
+  color: #2b3238;
+
+}
+
+.header_text {
+  margin-top: 5%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: start;
+  color: #3c4449;
+}
+
+.header_text_block {
+
+  padding-top: 120px;
+  ;
+}
+
+
+.saksh_title {
+
+  padding-top: 80px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 120%;
+  text-align: left;
+  color: #2b3238;
+}
+
+
+.video_block {
+
+  width: 100%;
+  padding-top: 30px;
+  ;
+}
+
+ 
+
+.saksh_section_title {
+  font-size: 45px;
+  text-align: center;
+}
+
+.saksh_section_content {
+
+  font-size: 25px;
+  text-align: center;
+}
+
+
+.saksh_p_title{
+
+font-size: 25px;
+}
+
+.saksh_p_content{
+
+font-size: 20px;
+}
+
+
+ 
+
+
+
+ .player {
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 1;
+  height: 320px;
+  width: 480px;
+
+  text-align: right;
+}
+
+
+.saksh_pricing{
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.pageblock:nth-child(odd) {
+  background: #fff;
+}
+.pageblock:nth-child(even) {
+  background: #f8f9fa;
+}
+
+
+.pageblock{
+
+  padding-top: 60px;
+  padding-bottom: 60px;;
+}
+
+.saksh_section_content
+{
+
+  padding-bottom: 60px;;
+}
+
+.saksh_pricing .card
+{
+  height: 500px;
+}
